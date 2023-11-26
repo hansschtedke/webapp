@@ -40,7 +40,7 @@ jobs:
         username: ${{ env.AZURE_CONTAINER_REGISTRY_USERNAME }}
         password: ${{ secrets.WEBAPPSECRET }}
 
-    - name: Build and push Docker image to Azure Container Registry
+    - name: Build and push Docker image to Azure Container Registry1
       run: |
         docker build . -t ${{ env.AZURE_CONTAINER_REGISTRY }}/${{ env.IMAGE_NAME }}:latest -t ${{env.AZURE_CONTAINER_REGISTRY}}/${{ env.IMAGE_NAME }}:${{ github.sha }}
         docker push ${{ env.AZURE_CONTAINER_REGISTRY }}/${{ env.IMAGE_NAME }}:${{ github.sha }}
