@@ -1,9 +1,9 @@
 name: CI/CD to Azure Container Registry2
 
-env:
-  AZURE_CONTAINER_REGISTRY: everlinkacr.azurecr.io
-  AZURE_CONTAINER_REGISTRY_USERNAME: everlinkacr
-  IMAGE_NAME: webapp
+# env:
+#   AZURE_CONTAINER_REGISTRY: everlinkacr.azurecr.io
+#   AZURE_CONTAINER_REGISTRY_USERNAME: everlinkacr
+#   IMAGE_NAME: webapp
 
 on:
   push:
