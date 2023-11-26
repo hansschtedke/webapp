@@ -1,4 +1,4 @@
-name: CI/CD to Azure Container Registry
+name: CI/CD to Azure Container Registry1
 
 env:
   AZURE_CONTAINER_REGISTRY: yourcontainerregistry.azurecr.io
